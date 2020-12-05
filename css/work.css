@@ -1,0 +1,80 @@
+.wp-wrapper {
+  padding: 200px 0;
+}
+
+.wp-wrapper h2 {
+  font-size: 4rem;
+}
+
+.work-outer {
+  margin-top: 70px;
+}
+
+.wpimage-wrapper {
+    display: inline-block;
+    max-width: 360px;
+    /* max-height: 220px; */
+}
+
+.work-outer img {
+    width: 100%;
+    /* max-width: 360px; */
+    height: 100%;
+    border: solid 2px #f9f9f9;
+
+    display: block;
+	  transition-duration: 0.3s;
+}
+
+.work-outer img:hover {
+  transform: scale(1.1);	/*画像の拡大率*/
+	transition-duration: 0.3s;
+}
+
+.wp-title {
+  display: block;
+}
+
+.wp-title a {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 18px;
+
+  background: linear-gradient(currentcolor, currentcolor) right bottom / 100% 1px no-repeat;
+  padding-bottom: 2px;
+  transition: background-size .4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.wp-title a:hover {
+  background-position: left bottom;
+  background-size: 0 1px;
+}
+
+
+.work-outer p {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 360px;
+  line-height: 27px;
+}
+
+.work-img1 {
+  padding-bottom: 13px; /*画像統一のためのpb*/
+}
+
+.work-inner1, .work-inner2, .work-inner3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 896px) {
+  .wp2, .wp4, .wp6 {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .work-img1 {
+  padding-bottom: 7px; /*画像統一のためのpb*/
+}
+}

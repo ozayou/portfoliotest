@@ -1,0 +1,284 @@
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 20px;
+	}
+
+	.br-sp {
+		display: block;
+	}
+
+	.br-pc {
+		display: none;
+	}
+
+	.top-wrapper h1 {
+		font-size: 28px;
+	}
+
+	.photo {
+	}
+
+	.details {
+		margin-left: 30px;
+	}
+
+	.work-inner {
+		/*display: block;*/
+		justify-content: normal;
+	}
+
+	.work-inner2 {
+		/*display: block;*/
+	}
+
+	.work-outline {
+		text-align: center;
+	}
+
+	.work1, .work3 {
+		margin-right: 10px;
+	}
+
+	/*--------------------------------------
+	SKILLS
+	--------------------------------------*/
+.skills img {
+		left: 47px;
+	}
+}
+
+@media screen and (max-width: 896px) {
+/*--------------------------------------
+WORK
+--------------------------------------*/
+
+	.work-wrapper {
+		padding-top: 70px;
+		margin-top: 0px;
+	}
+
+	.work-pc {
+	  display: none;
+	}
+
+	.work-sp {
+	  display: block;
+		margin-top: 50px;
+	}
+
+	.spwork2, .spwork3 {
+		margin-top: 30px;
+	}
+
+	.img-wrapper {
+    padding: 1%;
+}
+
+	.work-wrapper img {
+    width: 100%;
+    max-width: initial;
+}
+
+/*--------------------------------------
+SKILLS
+--------------------------------------*/
+.skills {
+    display: block;
+		margin-top: 50px;
+		text-align: center;
+}
+
+	.skills img {
+    width: 100%;
+    max-width: 160px;
+    position: relative;
+		left: 0px;
+}
+
+
+.skills p {
+	display: inline-block;
+	text-align: center;
+}
+
+.skill2, .skill3 {
+	margin-top: 60px;
+}
+
+/*--------------------------------------
+about
+--------------------------------------*/
+.about {
+  display: block;
+  margin-top: 70px;
+}
+
+.about1, .about2, .about3 {
+  width: 100%;
+}
+
+.aboutimg-outer {
+  height: initial;
+}
+
+.about-outer {
+  margin-top: 50px;
+}
+
+.about img {
+  width: 100%;
+  max-width: initial;
+  height: initial;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.top-wrapper {
+		padding-top: 250px;
+		padding-bottom: 250px;
+	}
+
+	.margin {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin-top: 0px;
+	}
+
+	/*--------------------------------------
+	header
+	--------------------------------------*/
+
+	header {
+		/*display: none;*/
+	}
+
+	header .container {
+	    max-width: initial;
+	}
+
+	.mheader {
+	/*padding-top: 30px;*/
+	/*padding-bottom: 30px;*/
+	line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+
+	.left-header {
+	    font-size: 12px;
+	    line-height: 15px;
+	    text-align: center;
+	    margin-top: 50px;
+	}
+
+	.hamburger {
+	  display : block;
+	  position: fixed;
+	  z-index : 3;
+	  right : 40px;
+	  top   : 40px;
+	  width : 42px;
+	  height: 42px;
+	  cursor: pointer;
+	  text-align: center;
+	}
+
+	/*--------------------------------------
+	PROFILE
+	--------------------------------------*/
+
+	.profile-wrapper {
+	height: 290px;
+	padding-top: 70px;
+	}
+
+	.my-profile {
+		display: block;
+		text-align: center;
+	}
+
+	.photo {
+		margin-bottom: 10px;
+	}
+
+	.hobby {
+		margin-top: 20px;
+	}
+
+	.details {
+		width: 100%;
+		max-width: 570px;
+		margin-left: 0px;
+	}
+
+/*--------------------------------------
+WORK
+--------------------------------------*/
+
+	.work-wrapper {
+		padding-top: 70px;
+		margin-top: 0px;
+	}
+
+	.work-pc {
+	  display: none;
+	}
+
+
+	.work-sp {
+	  display: block;
+	  margin-top: 50px;
+	}
+
+	.spwork2, .spwork3 {
+		margin-top: 15px;
+	}
+
+/*--------------------------------------
+SKILLS
+--------------------------------------*/
+	.skills {
+	    display: block;
+	    text-align: center;
+	    margin-top: 50px;
+	}
+
+	.skills p {
+	    width: 100%;
+	    margin-top: 15px;
+	}
+
+	.skill2, .skill3 {
+		margin-top: 60px;
+	}
+
+	.skills img {
+    width: 100%;
+    max-width: 160px;
+    position: relative;
+		left: 0px;
+}
+
+/*--------------------------------------
+contact
+--------------------------------------*/
+	.form1, .form2 {
+	    display: block;
+	    /*margin: 0 auto;*/
+	    width: 100%;
+	    max-width: 300px;
+	}
+
+	.form2 {
+	    height: 88px;
+	    padding-top: 10px;
+	    padding-left: 10px;
+	    margin-top: 15px;
+	}
+
+}

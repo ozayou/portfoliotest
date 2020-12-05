@@ -1,0 +1,73 @@
+.pfp-wrapper {
+	/*background-image: url("../img/tateegg.jpg");
+    background-size: cover;
+    background-position: center;*/
+	/*padding: 300px 30px;*/
+	padding: 200px 30px 100px 30px;
+}
+
+.pfp-profile {
+	margin-top: 30px;
+}
+
+.pfp-wrapper h2 {
+	font-size: 4rem;
+}
+
+.pfp-name {
+	font-size: 2rem;
+}
+
+.alphabet {
+	font-size: 1.2rem;
+	margin-top: 15px;
+}
+
+.pfp-profile1 {
+	margin-top: 40px;
+}
+
+.pfp-profile2 {
+	margin-top: 15px;
+}
+
+/*--------------------------------------
+vision
+--------------------------------------*/
+
+.vision {
+	padding: 70px 30px;
+	background-color: #f9f9f9;
+}
+
+.vision h2 {
+	font-size: 4rem;
+}
+
+.vision h3 {
+	margin-top: 10px;
+}
+
+.visions {
+	margin-top: 30px;
+}
+
+.vision2, .vision3 {
+	margin-top: 15px;
+}
+
+/*--------------------------------------
+strength
+--------------------------------------*/
+
+.strength {
+	padding: 70px 30px;
+}
+
+.strength h2 {
+	font-size: 4rem;
+}
+
+.strength h3 {
+	margin-top: 10px;
+}

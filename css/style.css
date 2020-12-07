@@ -203,10 +203,10 @@ top-wrapper
 .top-wrapper {
 	padding-top: 500px;
 	padding-bottom: 230px;
-	/*height: 660px;*/
-  background-image: url("../img/friedegg.jpg");
-    background-size: cover;
-    background-position: center;
+  /* background-image: url("../img/friedegg.jpg"); */
+  background-image: url("../img/myphoto4-sub.JPG");
+  background-size: cover;
+  background-position: center;
 }
 
 .top-wrapper h1 {
@@ -470,7 +470,7 @@ about
 .about {
   display: flex;
   justify-content: space-around;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .about-outer p {
@@ -478,7 +478,7 @@ about
 }
 
 .about1, .about2, .about3 {
-  width: 450px;
+  width: 590px;
 }
 
 .thema {

@@ -136,11 +136,22 @@ about
 }
 
 @media screen and (max-width: 480px) {
-
+	/*--------------------------------------
+	top-wrapper
+	--------------------------------------*/
 	.top-wrapper {
 		padding-top: 250px;
 		padding-bottom: 250px;
+		background-size: 130%;
+		background-repeat: no-repeat;
+		background-position: 80%;
 	}
+
+	.top-header {
+		position: relative;
+		top: 100px;
+		color: #fff;
+}
 
 	.margin {
 		padding-top: 0px;

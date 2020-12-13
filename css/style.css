@@ -285,10 +285,10 @@ PROFILE
 
 .p-about {
   margin-top: 10px;
-  /* width: 500px; */
+  /* width: 450px; */
   /* padding-top: 10px; */
   /* margin: 0 auto; */
-  /* text-align: left; */
+  text-align: center;
 }
 
 .philosophy {
@@ -446,6 +446,7 @@ about
 .about-wrapper {
   padding: 70px 0;
   text-align: center;
+  /* background-color: #f9f9f9; */
 }
 
 .about-wrapper h2 {
@@ -453,7 +454,7 @@ about
 }
 
 .about-wrapper h3 {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .about {
@@ -473,7 +474,9 @@ about
 .thema {
   /* margin-top: 20px; */
   background-color: #f9f9f9;
+  /* background-color: #a4a4a4; */
   padding: 7px;
+  font-weight: bold;
 }
 
 .thema2, .thema3 {
@@ -549,6 +552,56 @@ BLOG
     display: block;
 }
 
+.blog-wrapper h3 {
+  margin-top: 10px;
+}
+
+.latest-article {
+  margin-top: 50px;
+}
+
+.latest-article img {
+  width: 100%;
+  max-width: 475px;
+  /* display: block; */
+  /* transition-duration: 0.3s; */
+}
+
+/* .latest-article img:hover {
+  transform: scale(1.1);
+	transition-duration: 0.3s;
+} */
+
+
+
+.blog-title {
+  display: block;
+  margin-top: 15px;
+  font-size: 2rem;
+}
+
+.latest-article time {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.bp-link {
+  margin-top: 50px;
+}
+
+.bp-link a{
+  background: linear-gradient(currentcolor, currentcolor) right bottom / 100% 1px no-repeat;
+  padding-bottom: 2px;
+  transition: background-size .4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.bp-link a:hover {
+  background-position: left bottom;
+  background-size: 0 1px;
+}
+
+
 
 /*--------------------------------------
 contact
@@ -604,6 +657,40 @@ contact
 
 .send, .send::before, .send::after {
   transition: all .3s;
+}
+
+.contact-exp {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.contact-outer {
+  margin-top: 30px;
+  /* text-align: left; */
+}
+
+.cont-twitter, .cont-mail {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.cont-mail {
+  margin-top: 10px;
+}
+
+.cont-twitter a {
+  /* color: #0000cc; */
+  transition: all 0.3s ease 0s;
+}
+
+.cont-twitter a:hover {
+  box-shadow: 0px 1px 0px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-0.1875em);
+}
+
+.ct-margin {
+  margin-right: 10px;
 }
 
 /*--------------------------------------

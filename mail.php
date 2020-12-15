@@ -39,7 +39,7 @@ if(mb_send_mail($to, $subject2, $content2, $mailfrom)){
    mb_send_mail($mailto,$subject,$content,$mailfrom);
    ?>
    <script>
-       window.location = "file:///Users/ozaki.y/Desktop/my%20portfolio/sendpage.html";
+       window.location = "https://ozayou.github.io/portfoliotest/sendpage.html";
    </script>
    <?php
 } else {

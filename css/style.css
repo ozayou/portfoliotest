@@ -206,6 +206,7 @@ top-wrapper
   background-size: cover;
   background-position: center;
   background-color: #f9f9f9;
+  /* background-color: #f2f2f2; */
   position: relative;
   /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
 }
@@ -240,17 +241,17 @@ PROFILE
 --------------------------------------*/
 
 .profile-wrapper {
-  /* height: 340px; */
-  height: 310px;
-  /* padding-top: 70px; */
-  padding-top: 35px;
-	padding-bottom: 70px;
-    /*padding-top: 120px;*/
-    /*padding-bottom: 120px;*/
-	/*margin-top: -70px;*/
+    height: 310px;
+    padding-top: 35px;
+    padding-bottom: 70px;
     position: relative;
     z-index: 0;
     overflow: hidden;
+    /* height: 340px; */
+    /*padding-top: 120px;*/
+    /* padding-top: 70px; */
+    /*padding-bottom: 120px;*/
+	  /*margin-top: -70px;*/
 }
 
 .profile-wrapper h2 {
@@ -262,7 +263,6 @@ PROFILE
 .contents {
     /*padding-top: 70px;*/
   	margin-top: 50px;
-    /*background-color: #fff;*/
     text-align: center;
 }
 
@@ -331,9 +331,8 @@ WORK
 
 .img-wrapper {
     display: inline-block;
-    max-height: 220px;
+    height: 220px;
     padding: 1%;
-
     overflow: hidden;
 }
 
@@ -343,11 +342,11 @@ WORK
     height: 100%;
 
     display: block;
-	  transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .work-wrapper img:hover {
-  transform: scale(1.1);	/*画像の拡大率*/
+  transform: scale(1.1);
 	transition-duration: 0.3s;
 }
 
@@ -357,9 +356,6 @@ WORK
 
 .work-top {
     margin-top: 50px;
-}
-
-.work-bottom {
 }
 
 .work-sp {
@@ -391,6 +387,7 @@ SKILLS
 .skill-wrapper {
     padding-top: 70px;
     padding-bottom: 70px;
+    /* background-color: #ffee6b; */
 }
 
 .skill-wrapper h2 {
@@ -446,7 +443,7 @@ about
 .about-wrapper {
   padding: 70px 0;
   text-align: center;
-  /* background-color: #f9f9f9; */
+  background-color: #f9f9f9;
 }
 
 .about-wrapper h2 {
@@ -472,11 +469,9 @@ about
 }
 
 .thema {
-  /* margin-top: 20px; */
-  background-color: #f9f9f9;
-  /* background-color: #a4a4a4; */
   padding: 7px;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 .thema2, .thema3 {
@@ -518,7 +513,7 @@ BLOG
 .blog-wrapper {
     text-align: center;
     padding: 70px 0;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
 }
 
 .blog-wrapper h2{
@@ -560,17 +555,45 @@ BLOG
   margin-top: 50px;
 }
 
+.latestimg {
+  display: inline-block;
+  text-align: center;
+	height:			300px;
+	overflow:		hidden;
+	/* margin:			10px 8px 10px 16px; */
+  position:		relative;
+}
+
 .latest-article img {
   width: 100%;
   max-width: 475px;
-  /* display: block; */
-  /* transition-duration: 0.3s; */
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition-duration: 0.3s;
 }
 
-/* .latest-article img:hover {
-  transform: scale(1.1);
-	transition-duration: 0.3s;
-} */
+.latestimg .caption {
+	font-size:		140%;
+	color:			#fff;
+	padding-top:		140px;
+	padding-right: 150px;
+}
+.latestimg .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:		all 0.6s ease;
+}
+.latestimg:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+	padding-left:		90px;	/* 右にずらす */
+}
 
 
 
@@ -601,8 +624,6 @@ BLOG
   background-size: 0 1px;
 }
 
-
-
 /*--------------------------------------
 contact
 --------------------------------------*/
@@ -610,7 +631,8 @@ contact
 .contact {
 	text-align: center;
 	padding: 70px 0;
-	border: 2px solid #f9f9f9;
+  border: 2px solid #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .contact h2 {
@@ -697,7 +719,7 @@ contact
 footer
 --------------------------------------*/
 footer {
-	background-color: #f9f9f9;
+	/* background-color: #f9f9f9; */
 	padding: 30px 0 30px 0;
 }
 

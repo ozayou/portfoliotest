@@ -17,13 +17,6 @@
 		font-size: 28px;
 	}
 
-	.photo {
-	}
-
-	.details {
-		margin-left: 30px;
-	}
-
 	.work-inner {
 		/*display: block;*/
 		justify-content: normal;
@@ -50,6 +43,30 @@
 }
 
 @media screen and (max-width: 896px) {
+/*--------------------------------------
+PROFILE
+--------------------------------------*/
+.profile {
+    height: 1350px;
+}
+
+.profile__inner {
+	display: block;
+}
+
+.profile__about {
+  /* margin-left: 100px; */
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.pfp-profile {
+  text-align: center;
+	width: 100%;
+	margin-top: 60px;
+}
+
 /*--------------------------------------
 WORK
 --------------------------------------*/
@@ -144,12 +161,14 @@ about
 		padding-bottom: 250px;
 		background-size: 130%;
 		background-repeat: no-repeat;
-		background-position: 80%;
+		background-size: cover;
+		/* background-position: 80%; */
 	}
 
 	.top-header {
 		position: relative;
 		top: 100px;
+		/* color: #fff; */
 }
 
 	.margin {
@@ -198,32 +217,11 @@ about
 	  text-align: center;
 	}
 
-	/*--------------------------------------
-	PROFILE
-	--------------------------------------*/
-
-	.profile-wrapper {
-	height: 290px;
-	padding-top: 70px;
-	}
-
-	.my-profile {
-		display: block;
-		text-align: center;
-	}
-
-	.photo {
-		margin-bottom: 10px;
-	}
-
-	.hobby {
-		margin-top: 20px;
-	}
-
-	.details {
-		width: 100%;
-		max-width: 570px;
-		margin-left: 0px;
+/*--------------------------------------
+profile
+--------------------------------------*/
+	.pfp-profile1, .pfp-profile2, .pfp-profile3 {
+		text-align: left;
 	}
 
 /*--------------------------------------

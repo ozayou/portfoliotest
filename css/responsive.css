@@ -70,33 +70,20 @@ PROFILE
 /*--------------------------------------
 WORK
 --------------------------------------*/
+.works__inner {
+}
 
-	.work-wrapper {
-		padding-top: 70px;
-		margin-top: 0px;
-	}
+.works__top {
+  display: flex;
+	justify-content: initial;
+	flex-direction: column;
+  margin-top: 30px;
+}
 
-	.work-pc {
+	.works__bottom {
 	  display: none;
 	}
 
-	.work-sp {
-	  display: block;
-		margin-top: 50px;
-	}
-
-	.spwork2, .spwork3 {
-		margin-top: 30px;
-	}
-
-	.img-wrapper {
-    padding: 1%;
-}
-
-	.work-wrapper img {
-    width: 100%;
-    max-width: initial;
-}
 
 /*--------------------------------------
 SKILLS
@@ -227,25 +214,6 @@ profile
 /*--------------------------------------
 WORK
 --------------------------------------*/
-
-	.work-wrapper {
-		padding-top: 70px;
-		margin-top: 0px;
-	}
-
-	.work-pc {
-	  display: none;
-	}
-
-
-	.work-sp {
-	  display: block;
-	  margin-top: 50px;
-	}
-
-	.spwork2, .spwork3 {
-		margin-top: 15px;
-	}
 
 /*--------------------------------------
 SKILLS

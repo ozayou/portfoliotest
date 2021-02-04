@@ -33,7 +33,7 @@
 .work-outer img {
     width: 100%;
     max-width: 360px;
-    height: 100%;
+/*     height: 100%; */
     object-fit: cover;
 
 

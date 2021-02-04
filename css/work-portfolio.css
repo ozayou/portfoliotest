@@ -88,7 +88,7 @@
 }
 
 .workpage__dl a {
-  text-decoration: underline;
+/*   text-decoration: underline; */
 }
 
 .workpage__dl::after {
@@ -126,7 +126,7 @@
   text-align: center;
   position: relative;
   top: 180px;
-  text-decoration: underline;
+/*   text-decoration: underline; */
 }
 
 .workpage__dl dt {

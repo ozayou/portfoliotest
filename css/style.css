@@ -522,7 +522,7 @@ WORK
 
 .works__imgwrapper img {
   width: 100%;
-  width: 340px;
+  max-width: 340px;
   height: 216px;
   transition-duration: 0.3s;
   object-fit: cover;
@@ -549,7 +549,7 @@ WORK
 }
 .works__imgwrapper:hover .mask {
 	opacity:		1;	/* マスクを表示する */
-  padding-left:		120px;
+  padding-left:		110px;
   /* 右にずらす */
 }
 
@@ -566,22 +566,6 @@ WORK
 .wkp-link a:hover {
   background-position: left bottom;
   background-size: 0 1px;
-}
-
-
-.workpage__dl a {
-  display: inline-block;
-  position: relative;
-  background: linear-gradient(currentcolor, currentcolor) right bottom / 100% 1px no-repeat;
-  padding-bottom: 2px;
-  line-height: 1;
-  transition: background-size .4s cubic-bezier(0.215, 0.61, 0.355, 1);
-  /* color: #fff; */
-}
-
-.workpage__dl a:hover {
-  background-position: left bottom;
-	background-size: 0 1px;
 }
 
 /*--------------------------------------

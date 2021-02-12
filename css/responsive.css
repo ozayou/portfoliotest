@@ -17,6 +17,24 @@
 		font-size: 28px;
 	}
 
+	.works__imgwrapper {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+	height:			216px;
+	overflow:		hidden;
+  position:		relative;
+}
+
+.works__imgwrapper img {
+  width: 100%;
+	max-width: 300px;
+  height: 216px;
+  transition-duration: 0.3s;
+  object-fit: cover;
+	/* object-position: top; */
+}
+
 	.work-inner {
 		/*display: block;*/
 		justify-content: normal;
@@ -47,7 +65,7 @@
 PROFILE
 --------------------------------------*/
 .profile {
-    height: 1350px;
+    height: 1200px;
 }
 
 .profile__inner {
@@ -67,10 +85,59 @@ PROFILE
 	margin-top: 60px;
 }
 
+.works__imgwrapper .caption {
+  font-size:		140%;
+  width: 100%;
+	color:			#fff;
+	padding-top:		200px;
+  padding-right: 150px;
+  text-align: left;
+}
+.works__imgwrapper .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.6s ease;
+	transition:		all 0.6s ease;
+}
+.works__imgwrapper:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+  padding-left:		170px;
+  /* 右にずらす */
+}
+
 /*--------------------------------------
 WORK
 --------------------------------------*/
 .works__inner {
+}
+
+.works__wrapper {
+	margin-top: 20px;
+}
+
+.works__imgwrapper {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+	/* height:			216px; */
+	height: 400px;
+	overflow:		hidden;
+  position:		relative;
+}
+
+.works__imgwrapper img {
+  width: 100%;
+	max-width: initial;
+  /* height: 216px; */
+	height: 400px;
+  transition-duration: 0.3s;
+  object-fit: cover;
+	/* object-position: top; */
 }
 
 .works__top {
@@ -207,6 +274,10 @@ about
 /*--------------------------------------
 profile
 --------------------------------------*/
+.profile {
+    height: 1300px;
+}
+
 	.pfp-profile1, .pfp-profile2, .pfp-profile3 {
 		text-align: left;
 	}
@@ -214,7 +285,13 @@ profile
 /*--------------------------------------
 WORK
 --------------------------------------*/
+.works__imgwrapper {
+	height:			216px;
+}
 
+.works__imgwrapper img {
+  height: 216px;
+}
 /*--------------------------------------
 SKILLS
 --------------------------------------*/

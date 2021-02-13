@@ -1,5 +1,5 @@
 .wp-wrapper {
-  padding: 200px 60px;
+  padding: 200px 60px 100px 60px;
 }
 
 .wp-wrapper::after {
@@ -33,7 +33,7 @@
 .work-outer img {
     width: 100%;
     max-width: 360px;
-/*     height: 100%; */
+    height: 100%;
     object-fit: cover;
 
 
@@ -135,6 +135,26 @@
   flex-direction: column;
   justify-content: center;
   }
+}
+
+.gitp-link {
+	margin-top: 60px;
+  text-align: center;
+}
+
+.git {
+	margin-top: 15px;
+}
+
+.gitp-link a {
+  background: linear-gradient(currentcolor, currentcolor) right bottom / 100% 1px no-repeat;
+  padding-bottom: 2px;
+  transition: background-size .4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.gitp-link a:hover {
+  background-position: left bottom;
+  background-size: 0 1px;
 }
 
 @media screen and (max-width: 480px) {

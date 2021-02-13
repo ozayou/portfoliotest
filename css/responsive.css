@@ -292,6 +292,16 @@ WORK
 .works__imgwrapper img {
   height: 216px;
 }
+
+.works__imgwrapper .caption {
+	padding-top:		100px;
+  padding-right: 150px;
+  text-align: left;
+}
+
+.works__imgwrapper:hover .mask {
+  padding-left:		130px;
+}
 /*--------------------------------------
 SKILLS
 --------------------------------------*/

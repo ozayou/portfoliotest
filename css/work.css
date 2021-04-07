@@ -82,6 +82,57 @@
   justify-content: space-around;
 }
 
+
+.page-list {
+  padding-top: 60px;
+  /* padding-bottom: 70px; */
+}
+
+.page-list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.page-list li {
+    list-style: none;
+    font-size: 16.8px;
+    border: 1px solid #777777;
+    padding: 8px 18px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.page-list li:hover {
+    opacity: 1;
+}
+
+.page-list .this {
+    background-color: #eeeeee;
+    color: #333333;
+    opacity: 1;
+}
+
+.gitp-link {
+	margin-top: 30px;
+  text-align: center;
+}
+
+/* .git {
+	margin-top: 15px;
+} */
+
+.gitp-link a {
+  background: linear-gradient(currentcolor, currentcolor) right bottom / 100% 1px no-repeat;
+  padding-bottom: 2px;
+  transition: background-size .4s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.gitp-link a:hover {
+  background-position: left bottom;
+  background-size: 0 1px;
+}
+
+
 @media screen and (max-width: 1024px) {
 	.wp-wrapper::after  {
 		content: '';
@@ -138,13 +189,13 @@
 }
 
 .gitp-link {
-	margin-top: 60px;
+	margin-top: 30px;
   text-align: center;
 }
 
-.git {
+/* .git {
 	margin-top: 15px;
-}
+} */
 
 .gitp-link a {
   background: linear-gradient(currentcolor, currentcolor) right bottom / 100% 1px no-repeat;
